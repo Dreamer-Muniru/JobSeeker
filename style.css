@@ -1,0 +1,372 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+
+/*==============================================
+	Navigation
+================================================*/
+.navbar-brand img {
+	height: 3rem;
+	position: absolute;
+	top: 18px;	
+}
+
+.navbar-home {
+	background-color: lightblue;
+	border-radius: 0px;
+	
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    color: white;
+    margin: 0px;
+    padding: 10px;   
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul li:hover {
+		color: #6c2044;
+		border-bottom: double #6c2044;
+		background-color: lightgrey;
+}
+
+/*==============================================
+	Navigation
+================================================*/
+
+
+
+/*==============================================
+ Section_A
+================================================*/
+
+.section_banner {
+	background: url(img/pic2.jpg);
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 100px;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+}
+
+
+
+.btn-primary {
+	background-color: #6c2044;
+	color: #fff;
+}
+
+.font_size:hover {
+	background-color: #fff;
+	color: #6c2044;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+
+.font_size {	
+	font-size: 25px;
+	padding: 10px;
+	width: 250px;
+}
+
+.section_banner h1 {
+	line-height: 100px;
+	padding-bottom: 50px;
+	color: #6c2044;
+}
+
+
+
+
+
+
+/*=========================================
+	Find Job Section
+	
+============================================*/
+
+.form_section {
+	
+	height: 120px;
+	box-shadow: 2px 2px 4px 4px #6c2044;
+	border-radius: 2px;
+	background-color: #fff;
+	margin-top: -100px;
+
+}
+.form_feild {
+	text-align: center;
+	padding-top: 30px;
+}
+
+input[type=text] {
+	height: 50px;
+	width: 25%;
+	border-color: #6c2044;
+	border-radius: 5px;
+	margin-left: 20px;
+
+
+}
+input[placeholder] {
+	color: darkblue;
+	text-align: center;
+	font-size: 16px;
+}
+
+.find_job {
+	font-size: 16px;
+	margin-left: 0px;
+	color: #fff;
+	background-color: #6c2044;
+	margin-left: 20px;
+
+}
+
+.find_job:hover {
+	background-color: #fff;
+	color: #6c2044;
+	font-size: 20px;
+}
+.form_section select:hover{
+	background-color: #fff;
+	color: #6c2044;
+	justify-content: center;
+}
+.form_section select {
+	text-align: center;
+	height: 50px;
+	width: 25%;
+	border-color: #6c2044;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+/*=========================================
+	Find Job Section
+	
+===========================================*/
+.col_syle img {
+	width: 160px;
+	height: 60px;
+	overflow: hidden;
+}
+
+.col_syle {
+	margin-bottom: 30px;
+}
+
+
+
+.update_column h4 {
+	font-weight: bolder;
+}
+.update_column{
+   /* width: 100%;*/
+	height: 300px;
+	width: 24%;
+	box-shadow: 1px 2px 4px 1px #888888;
+	border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.update_column li{
+	list-style: none;
+
+}
+
+
+
+.apply_job {
+	float: right;
+	background-color: #6c2044;
+	color: white;
+}
+
+.apply_job:hover {
+	background-color: #fff;
+	color: #6c2044;
+}
+
+.pager li a{
+	background-color: #6c2044;
+	color: white;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.pager li a:hover {
+	background-color: #fff;
+	color: #6c2044;
+}
+/*==============================================
+	End of Content
+================================================*/
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 0px;
+    color: white;
+	background-color: #000000cf;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.message-content {
+	width: 60%;
+	position: relative;
+	margin: auto;
+	background-color: #000000cf;
+	padding: 0px 20px 20px;
+}
+
+
+/*==============================================
+	Footer
+================================================*/
+
+footer {
+	background-color: #6c2044;
+	text-align: center;
+	padding: 40px 10px 90px;
+	margin-top: 60px;
+	color: white;
+
+}
+
+footer h4, p {
+	font-size: 20px;
+	text-transform: capitalize;
+
+}
+footer h4{
+	font-size: 22px;
+}
+@media (max-width: 768px) {
+	.update_column{
+   /* width: 100%;*/
+	height: auto;
+	width: 100%;
+	box-shadow: 1px 2px 4px 1px #888888;
+	border-radius: 10px;
+    padding: 10px;
+    margin: 0px;
+}	
+
+
+.font_size {	
+	font-size: 18px;
+	padding: 10px;
+	width: 150px;
+}
+
+.section_banner h1 {
+	line-height: 70px;
+	padding-bottom: 50px;
+
+
+}
+
+.form_section {
+	width: 100%;
+	height: 120px;
+	box-shadow: 2px 2px 4px 4px #888888;
+	border-radius: 2px;
+	background-color: #fff;
+	margin-top: -100px;
+
+}
+.form_feild {
+	text-align: center;
+	padding-top: 30px;
+	width: %;
+	display: inline-flex;
+	overflow: hidden;
+
+}
+.form_section select {
+	text-align: center;
+	height: 50px;
+	width: 80%;
+	border-color: #6c2044;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+input[type=text] {
+	height: auto;
+	width: 85px;
+	border-color: #6c2044;
+	border-radius: 5px;
+	margin: 0px;
+
+
+}
+input[placeholder] {
+	color: darkblue;
+	text-align: center;
+	font-size: 10px;
+}
+
+.find_job {
+	font-size: 12px;
+	color: #fff;
+	background-color: #6c2044;
+	margin: 0px;
+
+}
+
+.find_job:hover {
+	background-color: #fff;
+	color: #6c2044;
+	font-size: 20px;
+}
+
+
+/*Top recruiters*/
+.col_syle img {
+	width: 100px;
+	height: 25px;
+	margin: 0px;
+}
+
+.col_syle {
+	margin: 30px auto;
+	display: inline-flex;
+}
+
+
+
+}
+
+/*
+MDN docs is where i could find javascript infor
+*/
